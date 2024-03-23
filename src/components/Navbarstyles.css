@@ -13,6 +13,7 @@
     left: 50%;
     transform: translate(-50%);
     z-index: 9999;
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
 } 
 .logo{
      cursor: pointer;

@@ -21,8 +21,11 @@ const BookingForm = () => {
 
   return (
     <div className="booking-page">
-        <h1>Book Now</h1>
+      <h1>Book Now</h1>
       <div className="booking-container">
+        <div className="image-container">
+          <img src={TTdrop} alt="Booking" />
+        </div>
         <div className="form-card">
           <h2>Booking Form</h2>
           <form onSubmit={handleSubmit}>
@@ -68,9 +71,6 @@ const BookingForm = () => {
               Book Now
             </button>
           </form>
-        </div>
-        <div className="image-container">
-          <img src={TTdrop} alt="Booking" />
         </div>
       </div>
     </div>

@@ -11,6 +11,7 @@
     margin-top: 3rem;
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .t-card {
@@ -45,17 +46,18 @@
 }
 
 .card-link {
-    margin-top: 1rem; /* Add space between text and anchor tag */
-    margin-bottom: 1rem; /* Add space between text and anchor tag */
     text-decoration: none;
     background: #25D366; /* Green color like WhatsApp */
-    padding: 1rem 2rem;
+    padding: 10px;
     border-radius: 6px;
     font-size: 1.1rem;
     font-weight: bold;
     letter-spacing: 2px;
     color: white; /* Font color white */
     border: 2px solid #25D366; /* Green border like WhatsApp */
+    display: block;
+    width: min-content;
+    float: right;
 }
 
 .card-link:hover {
