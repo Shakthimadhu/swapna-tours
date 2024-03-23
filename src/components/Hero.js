@@ -1,4 +1,6 @@
 import "./HeroStyles.css"
+import { RiWhatsappFill } from "react-icons/ri";
+
 function Hero(props) {
    return (
       <>
@@ -8,7 +10,10 @@ function Hero(props) {
                <h1>{props.title}</h1>
                <p>{props.text}</p>
                <div>
-                  <a href={props.url} className={props.btnClass}>{props.btntext}</a>
+                  <a href={props.url} target="_blank" className={props.btnClass}>
+                     <RiWhatsappFill />
+                     {props.btntext}
+                  </a>
                </div>
             </div>
          </div>

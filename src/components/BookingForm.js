@@ -20,17 +20,16 @@ const BookingForm = () => {
   };
 
   return (
-    <div className="booking-page">
+    <div className="booking-page" id="booking-page">
       <h1>Book Now</h1>
       <div className="booking-container">
         <div className="image-container">
           <img src={TTdrop} alt="Booking" />
         </div>
         <div className="form-card">
-          <h2>Booking Form</h2>
           <form onSubmit={handleSubmit}>
             <div className="form-group">
-              <label htmlFor="name">Name</label>
+              <label htmlFor="name">Your Name</label>
               <input
                 type="text"
                 id="name"

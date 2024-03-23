@@ -1,10 +1,19 @@
-.destination{
+.destination {
     margin: 4rem 6rem;
 }
-.destination h1{
+
+.destination h1 {
     font-size: 3rem;
 }
-button{
+
+.enquire-now-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.enquire-now-btn {
     margin-top: 1rem;
     text-decoration: none;
     background: white;
@@ -13,20 +22,20 @@ button{
     font-size: 1.1rem;
     font-weight: bold;
     letter-spacing: 2px;
-    color: black;
+    color: #25D366;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border: 1px #25D366 dashed;
 }
-button:hover{
-    margin-top: 1rem;
+
+.enquire-now-btn:hover {
+    cursor: pointer;
     text-decoration: none;
-    background: rgb(0, 47, 201);
-    padding: 1rem 2rem;
-    font-size: 1.1rem;
+    background: #25D366;
     font-weight: bold;
-    letter-spacing: 2px;
     color: white;
-    border: none;
 }
-.first-des{
+
+.first-des {
     padding: 10px;
     background-color: #f8f8f9;
     opacity: 95%;
@@ -36,7 +45,8 @@ button:hover{
     justify-content: space-between;
     margin-top: 4.5rem;
 }
-.first-des-reverse{
+
+.first-des-reverse {
     padding: 10px;
     background-color: #f8f8f9;
     opacity: 95%;
@@ -48,17 +58,18 @@ button:hover{
     justify-content: space-between;
     margin-top: 4.5rem;
 }
-.des-text{
+
+.des-text {
     width: 45%;
     text-align: start;
     font-size: 1.1rem;
 }
 
-.des-text h2{
+.des-text h2 {
     padding-bottom: 1rem;
 }
 
-.image{
+.image {
     position: relative;
     width: 50%;
     display: flex;
@@ -66,63 +77,61 @@ button:hover{
     z-index: -99;
 }
 
-.image img{
-    width:49%;
+.image img {
+    width: 49%;
     height: 350px;
     object-fit: cover;
     border-radius: 6px;
     box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
 }
 
-.image img:nth-child(2){
+.image img:nth-child(2) {
     position: absolute;
     top: -10%;
     right: 0;
 }
 
-@media screen and (max-width: 850px){
-    .destination{
+@media screen and (max-width: 850px) {
+    .destination {
         margin: 4rem 2rem;
     }
-    .first-des{
+
+    .first-des {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: space-between;
         margin-top: 2.5rem;
     }
-    .first-des-reverse{
+
+    .first-des-reverse {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: space-between;
         margin-top: 2.5rem;
     }
-    .des-text{
+
+    .des-text {
         width: 100%;
         font-size: 0.75rem;
 
     }
-    .image{
+
+    .image {
         width: 100%;
         margin: 1.8rem 0;
     }
-    .image img{
+
+    .image img {
         height: 250px;
     }
-    button{
+
+    .enquire-now-btn {
         padding: 0.6rem 1.1rem;
         font-size: 1rem;
         border-radius: 6px;
     }
-    button:hover{
-         margin-top: 1rem;
-        padding: 0.6rem 1.1rem;
-        font-size: 1rem;
-        border-radius: 6px;
-        background: rgb(0, 47, 201);
-        color: white;
-        border:none;
-    }
-    
+
+
 }

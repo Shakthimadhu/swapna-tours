@@ -15,6 +15,10 @@
     white-space: nowrap;
     animation: moveNumber 10s linear infinite;
     margin: auto;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
   
   @keyframes moveNumber {

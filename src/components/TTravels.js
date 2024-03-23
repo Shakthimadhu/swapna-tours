@@ -8,7 +8,7 @@ const TTravels = () => {
       
         <img src={TTdrop} alt="Small Screen Image" />
       <div className="button-container">
-        <button className="image-button">Book Now</button>
+        <a href='#booking-page' className="image-button">Book Now</a>
       </div>
     </div>
   );
