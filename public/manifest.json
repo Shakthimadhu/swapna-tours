@@ -1,6 +1,7 @@
 {
-  "short_name": "Sapna Tours",
-  "name": "Sapna Tours and Travels",
+  "short_name": "Swapna Tours",
+  "name": "Swapna Tours",
+  "description": "We give live to u r journey. Address: Nagamuneshwara Badavane, Hosur Rd, Parappana Agrahara, Bengaluru, Karnataka 560100",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,18 +9,18 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "logo-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "logo-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#f18916",
   "background_color": "#ffffff"
 }
