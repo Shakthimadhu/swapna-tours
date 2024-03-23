@@ -1,0 +1,24 @@
+.mobile-number-container {
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    position: relative;
+    background-color: #013d65;
+  }
+  
+  .mobile-number {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    white-space: nowrap;
+    animation: moveNumber 10s linear infinite;
+  }
+  
+  @keyframes moveNumber {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }

@@ -1,0 +1,128 @@
+.destination{
+    margin: 4rem 6rem;
+}
+.destination h1{
+    font-size: 3rem;
+}
+button{
+    margin-top: 1rem;
+    text-decoration: none;
+    background: white;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black;
+}
+button:hover{
+    margin-top: 1rem;
+    text-decoration: none;
+    background: rgb(0, 47, 201);
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    border: none;
+}
+.first-des{
+    padding: 10px;
+    background-color: #f8f8f9;
+    opacity: 95%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+.first-des-reverse{
+    padding: 10px;
+    background-color: #f8f8f9;
+    opacity: 95%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+.des-text{
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.des-text h2{
+    padding-bottom: 1rem;
+}
+
+.image{
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+}
+
+.image img{
+    width:49%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+}
+
+.image img:nth-child(2){
+    position: absolute;
+    top: -10%;
+    right: 0;
+}
+
+@media screen and (max-width: 850px){
+    .destination{
+        margin: 4rem 2rem;
+    }
+    .first-des{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2.5rem;
+    }
+    .first-des-reverse{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2.5rem;
+    }
+    .des-text{
+        width: 100%;
+        font-size: 0.75rem;
+
+    }
+    .image{
+        width: 100%;
+        margin: 1.8rem 0;
+    }
+    .image img{
+        height: 250px;
+    }
+    button{
+        padding: 0.6rem 1.1rem;
+        font-size: 1rem;
+        border-radius: 6px;
+    }
+    button:hover{
+         margin-top: 1rem;
+        padding: 0.6rem 1.1rem;
+        font-size: 1rem;
+        border-radius: 6px;
+        background: rgb(0, 47, 201);
+        color: white;
+        border:none;
+    }
+    
+}
