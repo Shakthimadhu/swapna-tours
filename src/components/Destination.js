@@ -9,7 +9,8 @@ import "./Destinationstyles.css"
 import ServiceData from "./ServicesData"
 const Desination = () =>{
     return(
-        <div className="destination">
+        <div className="services-page" id="services-page">
+        <div className="destination" >
             <h2>Popular Services</h2>
             <p>Luxury transportation at affordable rates, Book your rides with us</p>
             <ServiceData 
@@ -48,6 +49,7 @@ const Desination = () =>{
             img1={Localtaxiimg1}
             img2={Localtaxiimg2}
             />
+        </div>
         </div>
     )
 }

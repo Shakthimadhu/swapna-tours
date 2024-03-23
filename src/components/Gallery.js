@@ -32,8 +32,9 @@ const Gallery = () => {
   }, [currentIndex, images.length]);
 
   return (
-    <div>
+    <div className='gallery-page' id='gallery-page'> 
     <h1 className='testemonials-h1'>GALLERY</h1>
+    <br></br>
     <div className="gallery">
       <div className="gallery-container">
         {images.map((image, index) => (

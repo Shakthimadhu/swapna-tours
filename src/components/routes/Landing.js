@@ -26,6 +26,7 @@ function Landing() {
             <TTravels />
             <br></br>
             <br></br>
+            <br></br>
             <Desination />
             <BookingForm />
             <Ride />

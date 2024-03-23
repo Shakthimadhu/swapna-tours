@@ -6,23 +6,17 @@ export const Menuitems = [
         icon : ""
 
     },
-    {
-        title : "About",
-        url : "/about",
-        clsname : "nav-links",
-        icon : ""
-
-    },
+   
     {
         title : "Service",
-        url : "/service",
+        url : "#services-page",
         clsname : "nav-links",
         icon : ""
 
     },
     {
-        title : "Contact",
-        url : "/contact",
+        title : "Gallery",
+        url : "#gallery-page",
         clsname : "nav-links",
         icon : ""
 

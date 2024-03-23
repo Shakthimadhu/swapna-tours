@@ -1,20 +1,21 @@
 /* Show the image and button only on small screens */
 @media (max-width: 767px) {
     .small-screen-container {
-      margin: 2px;
       display: block;
       justify-content: center;
       align-items: center;
       height: 500px;
     }
-  
+    .ttmob{
+      margin-top: 30px;
+    }
     .image-button {
       width: 300px; /* Increase the button width */
-      margin-top: 1rem;
       padding: 1rem 1rem;
       background-color: #013d65;
       color: white;
       font-size: 1rem;
+      border-radius: 10px;
       text-decoration: none;
     }
   

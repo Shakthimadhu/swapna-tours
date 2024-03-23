@@ -14,12 +14,21 @@
     transform: translate(-50%);
     z-index: 9999;
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
-} 
-.logo{
-     cursor: pointer;
-     font-size: 2rem;
-     color: #222;
 }
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .logo {
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
+    padding-top:10px ;
+  } 
+
 .nav_menu{
     display: grid;
     grid-template-columns: repeat(6 ,auto);
@@ -63,6 +72,9 @@
     color: white;
     transition: all 0.2s ease-in-out;
 }
+.icons{
+    display: none;
+}
 
 @media screen and (max-width : 850px) {
     .Navitems{
@@ -103,6 +115,23 @@
             transition: none ;
         }
 
+        .icons {
+            padding: auto;
+            margin-left: 20px;
+            display: flex;
+        }
+        
+        .call-icon {
+            width: 50px;
+            height: 60px;
+            margin-right: 20px; /* Add margin-right here */
+        }
+        
+        .whatsapp-icon {
+            width: 50px;
+            height: 60px;
+        }
+        
         .signup_btn{
             display: block;
             text-align: center;
