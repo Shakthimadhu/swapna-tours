@@ -1,12 +1,15 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './BookingForm.css';
 import TTdrop from './assets/TTSwapnatravels.png';
+import emailjs from "@emailjs/browser";
 
 const BookingForm = () => {
   const [name, setName] = useState('');
   const [mobile, setMobile] = useState('');
   const [email, setEmail] = useState('');
   const [description, setDescription] = useState('');
+
+  useEffect(() => emailjs.init("TGJ47FH1aaMvXVnst"), []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -15,26 +18,16 @@ const BookingForm = () => {
     alert('You will be contacted very soon! Please feel free to call us.');
     // Reset form fields after successful submission
 
-    var data = {
-      service_id: 'service_13i6eg6',
-      template_id: 'template_l4ydhm8',
-      user_id: 'TGJ47FH1aaMvXVnst',
-      template_params: {
-        'name': name,
-        'mobile': mobile,
-        'email': email,
-        'description': description
-      }
-    };
-    
-    fetch('https://api.emailjs.com/api/v1.0/email/send', {
-      method: "POST", 
-      body: JSON.stringify(data),
-      headers: {
-        "Content-Type": "application/json",
-      }
-    });
+    const serviceId = "service_466cc2q";
+    const templateId = "template_l4ydhm8";
 
+    emailjs.send(serviceId, templateId, {
+      'name': name,
+      'mobile': mobile,
+      'email': email,
+      'description': description
+    });
+    
     setName('');
     setMobile('');
     setEmail('');
