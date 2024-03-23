@@ -11,8 +11,30 @@ const BookingForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // You can add your logic for form submission here
-    alert('Booking Successful!');
+
+    alert('You will be contacted very soon! Please feel free to call us.');
     // Reset form fields after successful submission
+
+    var data = {
+      service_id: 'service_13i6eg6',
+      template_id: 'template_l4ydhm8',
+      user_id: 'TGJ47FH1aaMvXVnst',
+      template_params: {
+        'name': name,
+        'mobile': mobile,
+        'email': email,
+        'description': description
+      }
+    };
+    
+    fetch('https://api.emailjs.com/api/v1.0/email/send', {
+      method: "POST", 
+      body: JSON.stringify(data),
+      headers: {
+        "Content-Type": "application/json",
+      }
+    });
+
     setName('');
     setMobile('');
     setEmail('');
@@ -55,7 +77,7 @@ const BookingForm = () => {
                 id="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                required
+                
               />
             </div>
             <div className="form-group">
