@@ -9,12 +9,13 @@ import BookingForm from "../BookingForm"
 import TitleContent from "../TitleContent"
 import TTravels from "../TTravels"
 import Gallery from "../Gallery"
+import Heroimg from '../assets/heroimg7.jpg'
 function Landing() {
     return (
         <>
             <Hero
                 cName="hero"
-                heroImg="https://images.unsplash.com/photo-1532931899774-fbd4de0008fb?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                heroImg={Heroimg}
                 title="Travel Made Easy"
                 text="Plan Your Journey With Us"
                 btntext="Enquire Now"
