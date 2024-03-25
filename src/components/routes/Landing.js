@@ -7,7 +7,6 @@ import Testimonial from "../Testimonials"
 import Details from "../Details"
 import BookingForm from "../BookingForm"
 import TitleContent from "../TitleContent"
-import TTravels from "../TTravels"
 import Gallery from "../Gallery"
 import Heroimg from '../assets/heroimg7.jpg'
 import Options from "../Options"

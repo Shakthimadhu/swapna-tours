@@ -1,18 +1,19 @@
 import React from 'react';
 import './Optionstyles.css';
+import { Link } from 'react-router-dom';
 
 const ButtonGroup = () => {
   return (
     <div className="button-group">
-      <a href="/Airporttaxi" className="btn">
+      <Link to="/Airporttaxi" className="btn">
         Airport Taxi
-      </a>
-      <a href="/Outstationtaxi" className="btn-outstation">
+      </Link>
+      <Link to="/Outstationtaxi" className="btn-outstation">
         Outstation Taxi
-      </a>
-      <a href="/Localtaxi" className="btn">
+      </Link>
+      <Link to="/Localtaxi" className="btn">
         Local Taxi
-      </a>
+      </Link>
     </div>
   );
 };
