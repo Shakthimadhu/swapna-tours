@@ -7,15 +7,11 @@ function RideData(props) {
             <div className="t-image">
                 <img src={props.image} alt="image"></img>
             </div>
-            <h2>{props.heading}</h2>
-            <br></br>
-            <p className="trip-details">{props.text}</p>
-            <p className="trip-details">{props.text1}</p>
-            <p className="trip-details">{props.text2}</p>
-            <p className="trip-details">{props.text3}</p>
+            <h4>{props.heading}</h4>
+            <p>{props.text}</p>
             <br></br>
             <div>
-                <a target="blank" href={props.url}
+                <a target="blank" href="https://wa.me/7676365293?text=I'm%20interested%20in%20booking%20Car%20from%20Swapna%20Tours%20"
                  className="whatsapp-link">
                     <IoLogoWhatsapp  />
                     <span>Whatsapp</span>

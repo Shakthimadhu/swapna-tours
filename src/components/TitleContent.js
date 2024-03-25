@@ -6,7 +6,7 @@ const TitleContent = () => {
   return (
     <div className="mobile-number-container">
 
-      <a href="tel:916366226642" className="mobile-number"> <span>  +91 6366226642 </span></a>
+      <a href="tel:916366226642" className="mobile-number"> <span> Call Us: +91 6366226642 </span></a>
     </div>
   );
 };

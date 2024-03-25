@@ -1,16 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import './Gallerystyles.css';
 import Galleryimg1 from './assets/Gallery8.jpg'
-import Galleryimg2 from './assets/img1.jpg'
-import Galleryimg3 from './assets/img2.jpg'
-import Galleryimg4 from './assets/img4.jpg'
-import Galleryimg5 from './assets/img5.jpg'
-import Galleryimg6 from './assets/img6.jpg'
-import Galleryimg7 from './assets/img7.jpg'
-import Galleryimg8 from './assets/img8.jpg'
-import Galleryimg9 from './assets/img9.jpg'
-import Galleryimg10 from './assets/img10.jpg'
-import Galleryimg11 from './assets/img11.jpg'
+import Galleryimg2 from './assets/Gallery1.jpg'
+import Galleryimg3 from './assets/Gallery4.jpg'
+import Galleryimg4 from './assets/Gallery5.jpg'
+import Galleryimg5 from './assets/Gallery6.jpg'
+import Galleryimg6 from './assets/Gallery7.jpg'
+import Galleryimg7 from './assets/Galler2.jpg'
+import Galleryimg8 from './assets/Galler3.jpg'
 
 const Gallery = () => {
   const [images, setImages] = useState([
@@ -22,9 +19,6 @@ const Gallery = () => {
     Galleryimg3,
     Galleryimg4,
     Galleryimg5,
-    Galleryimg9,
-    Galleryimg10,
-    Galleryimg11,
    
   ]);
 

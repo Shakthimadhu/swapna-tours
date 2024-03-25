@@ -10,7 +10,6 @@ import TitleContent from "../TitleContent"
 import TTravels from "../TTravels"
 import Gallery from "../Gallery"
 import Heroimg from '../assets/heroimg7.jpg'
-import Options from "../Options"
 function Landing() {
     return (
         <>
@@ -25,11 +24,13 @@ function Landing() {
             />
             <TitleContent />
             <Details />
-            <Options />
-            <Ride />
+            <TTravels />
+            <br></br>
+            <br></br>
+            <br></br>
             <Desination />
             <BookingForm />
-           
+            <Ride />
             <Gallery />
             <br></br>
             <Testimonial />

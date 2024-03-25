@@ -19,7 +19,7 @@ const Desination = () =>{
             text="Bangalore Airport taxi
             Swapna Tours are disinfected thoroughly before and after every trip -
              the drivers are trained to follow Govt issued precautionary guidelines 
-             to ensure customer safety. 
+             to ensure customer safety during the ride in pandemic times. 
              No extra Toll charges ( Toll-free road trip for Airport Pickup & Drop)
              24/7 Airport Cabs in Bangalore at affordable prices."
             img1={Airportimg}
@@ -28,18 +28,24 @@ const Desination = () =>{
            <ServiceData 
             className="first-des-reverse"
             heading="Outstation Taxi"
-            text="Book your outstation taxi with Swapna Tours for a safe and secure drive experience.
-             Our professional drivers ensure your comfort and peace of mind throughout your journey.
-              Enjoy hassle-free travel with us."
+            text="Bangalore Airport taxi
+            Swapna Tours are disinfected thoroughly before and after every trip -
+             the drivers are trained to follow Govt issued precautionary guidelines 
+             to ensure customer safety during the ride in pandemic times. 
+             No extra Toll charges ( Toll-free road trip for Airport Pickup & Drop)
+             24/7 Airport Cabs in Bangalore at affordable prices."
             img1={Outstationimg1}
             img2={Outstationimg2}
             />
               <ServiceData 
               className="first-des"
             heading="Local Taxi"
-            text="For local transportation needs, rely on Swapna Tours for convenient and reliable taxi services. 
-            Our local drivers are familiar with the area and committed to providing a safe and comfortable ride. 
-            Experience seamless travel with us today."
+            text="Bangalore Airport taxi
+            Swapna Tours are disinfected thoroughly before and after every trip -
+             the drivers are trained to follow Govt issued precautionary guidelines 
+             to ensure customer safety during the ride in pandemic times. 
+             No extra Toll charges ( Toll-free road trip for Airport Pickup & Drop)
+             24/7 Airport Cabs in Bangalore at affordable prices."
             img1={Localtaxiimg1}
             img2={Localtaxiimg2}
             />

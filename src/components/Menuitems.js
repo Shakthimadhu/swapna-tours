@@ -8,22 +8,15 @@ export const Menuitems = [
     },
    
     {
-        title : "Airport Taxi",
-        url : "/airporttaxi",
+        title : "Service",
+        url : "#services-page",
         clsname : "nav-links",
         icon : ""
 
     },
     {
-        title : "Outstation Taxi",
-        url : "/OutstationTaxi",
-        clsname : "nav-links",
-        icon : ""
-
-    },
-    {
-        title : "Local Taxi",
-        url : "/Localtaxi",
+        title : "Gallery",
+        url : "#gallery-page",
         clsname : "nav-links",
         icon : ""
 
