@@ -18,7 +18,7 @@ const BookingForm = () => {
     alert('You will be contacted very soon! Please feel free to call us.');
     // Reset form fields after successful submission
 
-    const serviceId = "service_hej2y8x";
+    const serviceId = "service_js8wofc";
     const templateId = "template_gv3blsj";
 
     emailjs.send(serviceId, templateId, {
