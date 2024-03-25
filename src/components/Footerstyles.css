@@ -1,48 +1,79 @@
-.footer{
+.footer {
     padding: 4rem 6rem;
-    background: gainsboro ;
+    background: #95d0f8;
     color: black;
-}
-.top{
+  }
+  
+  .top {
     display: flex;
     align-items: center;
     text-align: start;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-.bottom{
+  }
+  
+  .top div:last-child {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .social-icon {
+    font-size: 3rem; /* Increase icon size */
+  }
+  
+  .bottom {
     padding-top: 2rem;
     text-align: start;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.bottom div{
+  }
+  
+  .bottom div {
     display: flex;
     flex-direction: column;
-}
-
-.bottom h4{
+    margin-right: 5rem; /* Add some space between sections */
+  }
+  
+  .bottom h4 {
     font-size: 1.3rem;
-    padding: 1rem 0 .8rem 0;
-}
-
-.bottom a{
+    padding: 1rem 0 0.8rem 0;
+  }
+  
+  .bottom a {
     text-decoration: none;
     color: black;
     padding-bottom: 0.4rem;
     font-size: 1.1rem;
-}
-
-@media screen and (max-width: 850px) {
-    .footer{
-        padding: 4rem 2rem;
+  }
+  
+  .rights-p {
+    display: none;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  
+  .footer-h1 {
+    max-width: 180px; /* Reduce image size for larger screens */
+  }
+  
+  @media screen and (max-width: 850px) {
+    .footer {
+      padding: 4rem 2rem;
     }
-    .footer-h1{
-        font-size: 30px;
+  
+    .footer-h1 {
+      padding-left: 0px;
+      max-width: 150px; /* Reduce image size further for smaller screens */
     }
-    .bottom div{
-        width: 50%;
+  
+    .bottom div {
+      width: 50%;
+      margin-right: 0; /* Remove the space between sections on smaller screens */
     }
-}
+  
+    .rights-p {
+      display: block;
+      font-weight: bold;
+      margin-top: 50px;
+    }
+  }

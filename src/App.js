@@ -5,6 +5,9 @@ import Landing from './components/routes/Landing';
 import About from './components/routes/About';
 import Contact from './components/routes/Contact';
 import Service from './components/routes/Service';
+import Airporttaxi from './components/routes/Airporttaxi';
+import OutstationTaxi from './components/routes/OutstationTaxi';
+import Localtaxi from './components/routes/Localtaxi';
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/service' element={<Service />} />
+          <Route path='/airporttaxi' element={<Airporttaxi />} />
+          <Route path='/OutstationTaxi' element={<OutstationTaxi />} />
+          <Route path='/Localtaxi' element={<Localtaxi />} />
         </Routes>
       </Router>
       <Navbar/>

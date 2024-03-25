@@ -1,14 +1,15 @@
-.ride {
+.Airportride {
+    padding-top: 60px;
     margin: 4rem 6rem;
     color: black;
     text-align: center;
   }
   
-  .ride h1 {
+  .Airportride h1 {
     font-size: 3rem;
   }
   
-  .ridecard {
+  .Airportridecard {
     margin-top: 3rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -97,18 +98,18 @@
   margin: 5px;
   }
   @media screen and (max-width: 1024px) {
-    .ridecard {
+    .Airportridecard {
       display: grid;
       grid-template-columns: 1fr 1fr;
     }
   }
   
   @media screen and (max-width: 768px) {
-    .ride {
+    .Airportride {
       margin: 4rem 2rem;
     }
   
-    .ridecard {
+    .Airportridecard {
       display: flex;
       flex-direction: column;
     }
