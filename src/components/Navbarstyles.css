@@ -41,7 +41,7 @@
     color: #222;
     font-size: 1.2rem;
     font-weight: 600;
-    padding: 0.7rem 1rem;
+    padding: 1rem;
     white-space: nowrap;
 }
 
@@ -52,7 +52,7 @@
 .nav-links:hover{
     background-color: rgb(0, 47, 201);
     color: white;
-    border-radius: 4px;
+    border-radius: 5px;
     transition: all 0.2s ease-in-out
 }
 .sign-up{

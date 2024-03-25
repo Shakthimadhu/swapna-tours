@@ -3,6 +3,7 @@ import { useRef, useEffect } from "react";
 import logo from './assets/Swapnatours_logo.png';
 import Callicon from './assets/callicon.png';
 import Whatsappicon from './assets/Whatsappicon.png';
+import { Link } from "react-router-dom";
 
 function Navbar() {
     let prevScrollpos = window.scrollY;
@@ -40,10 +41,10 @@ function Navbar() {
                 {Menuitems.map((item, index) => {
                     return (
                         <li key={index}>
-                            <a className="nav-links" href={item.url}>
-                                <i className={item.icon}></i>
+                            <Link className="nav-links" to={item.url}>
+                                {item.icon && <i className={item.icon}></i>}
                                 {item.title}
-                            </a>
+                            </Link>
                         </li>
                     );
                 })}

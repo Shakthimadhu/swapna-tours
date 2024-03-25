@@ -1,6 +1,7 @@
 import "./Footerstyles.css"
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import logo from './assets/LOGO-FOOTER.jpg'
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -18,13 +19,13 @@ const Footer = () => {
       <div className="bottom">
         <div>
           <h4>Services</h4>
-          <a href="/airporttaxi">Airport Taxi</a>
-          <a href="/OutstationTaxi">Outstation Taxi</a>
-          <a href="/Localtaxi">Local Taxi</a>
+          <Link to={`/airporttaxi`}>Airport Taxi</Link>
+          <Link to={`/OutstationTaxi`}>Outstation Taxi</Link>
+          <Link to={`/Localtaxi`}>Local Taxi</Link>
         </div>
         <div>
           <h4>Gallery</h4>
-          <a href="/">Our Gallery</a>
+          <Link to={`/`}>Our Gallery</Link>
         </div>
       </div>
       <p className="rights-p">@Copyrights Reserved Swapna Tours</p>

@@ -2,20 +2,20 @@ import Footer from "../Footer";
 import Hero from "../Hero"
 import Navbar from "../Navbar"
 import Aboutimage from "../assets/Contact.jpg"
-function Contact(){
-    return(
-     <>
-      <Navbar/>
-        <Hero 
+function Contact() {
+  return (
+    <>
+      <Navbar />
+      <Hero
         cName="hero-mid"
         heroImg={Aboutimage}
         title="CONTACT US"
         url="/"
         btnClass="none"
-        />
-        <Footer/>
-     </>   
+      />
+      <Footer />
+    </>
 
-    )
-    }
-    export default Contact;
+  )
+}
+export default Contact;

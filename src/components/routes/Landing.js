@@ -28,7 +28,7 @@ function Landing() {
             <Ride />
             <Desination />
             <BookingForm />
-           
+
             <Gallery />
             <br></br>
             <Testimonial />

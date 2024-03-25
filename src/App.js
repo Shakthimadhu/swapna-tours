@@ -22,8 +22,8 @@ function App() {
           <Route path='/OutstationTaxi' element={<OutstationTaxi />} />
           <Route path='/Localtaxi' element={<Localtaxi />} />
         </Routes>
+        <Navbar/>
       </Router>
-      <Navbar/>
     </div>
   );
 }
