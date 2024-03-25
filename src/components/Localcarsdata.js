@@ -1,7 +1,7 @@
-import "./Ridedata.css"
+import "./Localcarsstyles.css"
 import { IoLogoWhatsapp } from "react-icons/io";
 
-function RideData(props) {
+function LocalcarData(props) {
     return (
         <div className="t-card">
             <div className="t-image">
@@ -13,6 +13,7 @@ function RideData(props) {
             <p className="trip-details">{props.text1}</p>
             <p className="trip-details">{props.text2}</p>
             <p className="trip-details">{props.text3}</p>
+            <p className="trip-details">{props.text4}</p>
             <br></br>
             <div>
                 <a target="blank" href={props.url}
@@ -26,4 +27,4 @@ function RideData(props) {
     )
 }
 
-export default RideData;
+export default LocalcarData;

@@ -1,7 +1,7 @@
-import "./Ridedata.css"
+import "./Outstationcarsstyles.css"
 import { IoLogoWhatsapp } from "react-icons/io";
 
-function RideData(props) {
+function OutstationcarData(props) {
     return (
         <div className="t-card">
             <div className="t-image">
@@ -26,4 +26,4 @@ function RideData(props) {
     )
 }
 
-export default RideData;
+export default OutstationcarData;

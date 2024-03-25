@@ -23,7 +23,7 @@ function Navbar() {
     const handleCallClick = () => {
         const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
         if (isMobile) {
-            window.open('tel:7676365293');
+            window.open('tel:6366226642');
         }
     };
 
@@ -34,7 +34,7 @@ function Navbar() {
             </a>
             <div className="icons">
                 <img src={Callicon} alt="callicon" className="call-icon" onClick={handleCallClick} />
-                <a href="https://wa.me/7676365293?text=I'm%20interested%20in%20booking%20Car%20from%20Swapna%20Tours%20"><img src={Whatsappicon} alt="callicon" className="whatsapp-icon" /></a>
+                <a href="https://wa.me/6366226642?text=I'm%20interested%20in%20booking%20Car%20from%20Swapna%20Tours%20"><img src={Whatsappicon} alt="callicon" className="whatsapp-icon" /></a>
             </div>
             <ul className="nav_menu">
                 {Menuitems.map((item, index) => {
