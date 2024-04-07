@@ -9,6 +9,7 @@ import Airporttaxi from './components/routes/Airporttaxi';
 import OutstationTaxi from './components/routes/OutstationTaxi';
 import Localtaxi from './components/routes/Localtaxi';
 import ScrollToTop from './components/ScrollTop';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/Localtaxi' element={<Localtaxi />} />
         </Routes>
         <Navbar/>
+        <Footer />
         <ScrollToTop/>
       </Router>
     </div>

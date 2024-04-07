@@ -5,7 +5,6 @@ import Aboutimage from "../assets/about.jpg"
 function Service() {
     return (
         <>
-            <Navbar />
             <Hero
                 cName="hero-mid"
                 heroImg={Aboutimage}
@@ -13,7 +12,6 @@ function Service() {
                 url="/"
                 btnClass="none"
             />
-            <Footer />
         </>
     )
 }

@@ -7,15 +7,15 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
     let prevScrollpos = window.scrollY;
-    let headerRef = useRef();
 
     useEffect(() => {
         window.onscroll = function () {
             var currentScrollPos = window.scrollY;
+            let navItems = document.getElementById("Navitems");
             if (prevScrollpos > currentScrollPos) {
-                headerRef.current.style.top = "20px";
+                navItems.style.top = "20px";
             } else {
-                headerRef.current.style.top = "-100px";
+                navItems.style.top = "-100px";
             }
             prevScrollpos = currentScrollPos;
         }
@@ -29,7 +29,7 @@ function Navbar() {
     };
 
     return (
-        <nav ref={headerRef} className="Navitems">
+        <nav id="Navitems" className="Navitems">
             <a href="/" className="logo-link">
                 <img src={logo} alt="Logo" className="logo" />
             </a>

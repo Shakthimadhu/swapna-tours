@@ -32,7 +32,6 @@ function Landing() {
             <Gallery />
             <br></br>
             <Testimonial />
-            <Footer />
         </>
     )
 }

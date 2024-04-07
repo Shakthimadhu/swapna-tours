@@ -5,7 +5,6 @@ import Aboutimage from "../assets/Contact.jpg"
 function Contact() {
   return (
     <>
-      <Navbar />
       <Hero
         cName="hero-mid"
         heroImg={Aboutimage}
@@ -13,7 +12,6 @@ function Contact() {
         url="/"
         btnClass="none"
       />
-      <Footer />
     </>
 
   )

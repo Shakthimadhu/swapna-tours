@@ -4,9 +4,7 @@ import Airportcars from "../Airportcars";
 function Airporttaxi() {
     return (
         <div id='#Airporttaxi'>
-            <Navbar />
             <Airportcars />
-            <Footer />
         </div>
     )
 }

@@ -1,13 +1,11 @@
 import Footer from "../Footer";
 import Navbar from "../Navbar";
 import Outstationcars from "../Outststationcars";
-function OutstationTaxi(){
-    return(
+function OutstationTaxi() {
+    return (
         <div id='#Outstationtaxi'>
-     <Navbar/>
-     <Outstationcars />
-    <Footer/> 
-     </div>  
+            <Outstationcars />
+        </div>
     )
-    }
-    export default OutstationTaxi;
+}
+export default OutstationTaxi;
