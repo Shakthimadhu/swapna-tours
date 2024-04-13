@@ -47,6 +47,11 @@ h1 {
 
 .testimonial-author {
   font-weight: bold;
+  color: black;
+}
+.testimonial-author:hover{
+  font-weight: bold;
+  color: white;
 }
 
 /* Responsive styles */
@@ -54,6 +59,10 @@ h1 {
   .testimonial-card {
     max-width: 100%;
   }
+  .testimonial-author{
+    color: black;
+  }
+ 
   .testemonials-h1{
     font-size: 25px;
   }

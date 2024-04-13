@@ -10,6 +10,8 @@ import TitleContent from "../TitleContent"
 import Gallery from "../Gallery"
 import Heroimg from '../assets/heroimg7.jpg'
 import Options from "../Options"
+import FAQSection from "../FAQSection"
+
 function Landing() {
     return (
         <>
@@ -19,7 +21,7 @@ function Landing() {
                 title="Travel Made Easy"
                 text="Plan Your Journey With Us"
                 btntext="Enquire Now"
-                url="https://wa.me/7676365293?text=I'm%20interested%20in%20booking%20Car%20from%20Swapna%20Tours%20"
+                url="https://wa.me/6366226642?text=I'm%20interested%20in%20booking%20Car%20from%20Swapna%20Tours%20"
                 btnClass="show"
             />
             <TitleContent />
@@ -32,6 +34,7 @@ function Landing() {
             <Gallery />
             <br></br>
             <Testimonial />
+            <FAQSection />
         </>
     )
 }

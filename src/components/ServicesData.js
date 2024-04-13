@@ -12,7 +12,7 @@ class ServiceData extends Component {
           <p>
             {this.props.text}
           </p>
-          <a href="https://wa.me/7676365293?text=I'm%20interested%20in%20booking%20Car%20from%20Swapna%20Tours%20" target="_blank" className="enquire-now-btn">
+          <a href="https://wa.me/6366226642?text=I'm%20interested%20in%20booking%20Car%20from%20Swapna%20Tours%20" target="_blank" className="enquire-now-btn">
             <RiWhatsappFill />
             <span>Enquire Now</span>
           </a>
